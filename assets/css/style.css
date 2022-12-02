@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.logo{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 140px  0;
+}
+/* Input Styling */
+input{
+    width: 400px;
+    padding: 15px 50px;
+    border-radius: 30px; 
+    border: 1px solid #ccc;
+    background: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png)  no-repeat ,
+    url(./image/search.svg)  no-repeat;
+    background-position: right 15px center, left 15px center;
+    background-size: 23px;
+}
+
+input:focus{
+    box-shadow: 2px 3px 4px 2px #ccc;
+    outline: none;
+}
+.input-search{
+    padding-top: 20px;
+}
+
+/*buttons*/
+
+.btn-container{
+    margin-top: 30px;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    color: #5f6368;
+}
+
+/* Languages */
+div.languages{
+    margin-top: 40px;
+}
+
+ol.languages{
+    list-style: none;
+}
+ol.languages li{
+    display: inline;
+    font-size: 13px;
+    margin-left: 10px;
+}
+ol.languages li > a{
+    text-decoration: none;
+}
+
+/*Footer */
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    text-align: left;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ol li{
+    display: inline;
+    padding-right: 30px;
+    color: #676767;
+    font-size: 13px;
+}
